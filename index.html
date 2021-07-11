@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pincode</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="box">
+            <div class="effect"></div>
+            <div id="code">
+                <img src="assets/img/code.png" alt="">
+            </div>
+            <div id="code-check">
+                <img src="assets/img/check.png" alt="">
+            </div>
+            <div id="location">
+                <img src="assets/img/location.png" alt="">
+            </div>
+            <div class="title" onclick="refreshPage();">Pincode App</div>
+
+            <form class="form" id="form">
+                <input type="text" id="filterInput" placeholder="Enter the pincode">
+            </form>
+
+            <div id="err"></div>
+            <div id="output" class="output"></div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+    
+</body>
+</html>
